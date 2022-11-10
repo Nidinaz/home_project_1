@@ -16,12 +16,12 @@ function App() {
 //component of batman ussing prop
 const Batman = (props) => {
   return (
-    <div className='batman_properties'>
+    <div className="batman_properties">
       <div>
-        <span className='title'>{props.batman.Title}</span>
+        <span className="title">{props.batman.Title}</span>
       </div>
       <div>
-        <span className='year'>{props.batman.Year}</span>
+        <span className="year">{props.batman.Year}</span>
       </div>
       <div>
         <span>{props.batman.imdbID}</span>
@@ -30,7 +30,7 @@ const Batman = (props) => {
         <span>{props.batman.Type}</span>
       </div>
       <div>
-        <img src={props.batman.Poster} alt={props.batman.Title}/>
+        <img src={props.batman.Poster} alt={props.batman.Title} />
       </div>
     </div>
   );
